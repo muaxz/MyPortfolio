@@ -1,0 +1,128 @@
+.navbar{
+    padding: 20px;
+    font-size: 25px;
+    margin-bottom: 50px;
+   
+}
+
+.inner_navbar{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.navbar_child{
+    margin-left: 14px;
+    cursor: pointer;
+    padding-bottom: 2px;
+    border-bottom: 2px solid pink;
+}
+
+.content_section{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.tech_icon{
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.content_section_child{
+    margin: auto;
+    margin-bottom: 20px;
+    transition-duration: 500ms;
+    max-width: 600px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.image_section{
+    padding-bottom: 20px;
+    
+    height: 300px;
+}
+img{
+    height: 100%;
+}
+
+.arrow_down{
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    border: 1px solid lightgrey;
+    width: 30px;
+    color: #ef476f;
+    height: 30px;
+    line-height: 22px;
+    border-radius: 50%;
+    background-color: white;
+    bottom: -12px;
+    transform:translateX(-50%) rotateZ(180deg);
+    left: 50%;
+}
+
+.description{
+    padding-bottom: 25px;
+}
+.arrow_down:hover{
+    color: white;
+    background-color:#ef476f;
+}
+
+.content_section_inner_child{
+    cursor: pointer;
+    position:relative;
+    padding: 5px;
+    height: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.extend_height{
+    height: 440px;
+}
+
+.reverse{
+    transform: rotateZ(0deg);
+    left:48%;
+}
+.external_none{
+    display:none;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+.header_section{
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+
+.header_button{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border:1px solid lightgrey;
+}
+
+.header_button:hover{
+    color:white;
+    background-color: #ef476f;
+    outline: none;
+    border:none;
+   
+}
