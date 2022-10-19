@@ -75,13 +75,17 @@ a{
     right: 30px;
     transition-duration: 500ms;
     transition-timing-function: ease-out;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     text-align: left;
 }
 
 .single-holder:nth-child(even){
     display: flex;
     justify-content: end;
+}
+
+.single-holder:nth-child(odd){
+    padding-left: 30px;
 }
 
 
@@ -105,7 +109,6 @@ a{
     position: relative;
     width: 600px;
     height: 300px;
-    margin-bottom: 50px;
     border-radius: 10px;
 }
 
